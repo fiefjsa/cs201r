@@ -1,0 +1,105 @@
+h2{
+    font-family:Cursive;
+    font-size:20px;
+}
+
+div {
+	border-radius: 10px;
+}
+
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 99%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: purple;
+	margin-bottom: 10px;
+}
+#footer
+{
+
+}
+.left {
+	position: relative;
+	float: left;
+	margin-top: 50px;
+	width: 10%;
+	height: 910px;
+	background-color: #CC99FF;
+	margin-bottom: 10px;
+}
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 50px;
+	width: 88%;
+	height: 390px;
+	background-color: #FFFF99;
+	margin-bottom: 5px;
+}
+#experience{
+    	position: relative;
+	float: right;
+	margin-top: 2px;
+	width: 88%;
+	height: 340px;
+	background-color: #FFFFCC;
+	margin-bottom: 10px;
+	font-size: 16px;
+    
+}
+#skills{
+	position: relative;
+	float: right;
+	margin-top: 2px;
+	width: 88%;
+	height: 160px;
+	background-color: #FFFF99;
+	margin-bottom: 5px;
+}
+#footer{
+    height: 50px;
+    background-color: purple;
+    clear: both;
+    position:relative;
+    
+}
+#name {
+	float:left;
+	z-index:1;
+	position:fixed;
+	margin-left: 5px;
+	padding-top: 5px;
+	margin-top: 5px;
+	font-size: 28px;
+	font-family: Cursive;
+}
+#email{
+    font-family: Cursive;
+    font-size:24px; 
+    padding-top: 5px;
+    position:relative; 
+    padding-left: 15px;
+}
+#objective {
+ font-size: 16px;  
+ font-family: Palatino
+ margin-left: 5px;
+}
+
+.titles{
+ font-size: 20;
+ font-family:Palatino;
+ padding-left:15px;
+}
+.contact{
+ padding-left: 15px;   
+}
+.skills.list{
+    padding-left:15px;}
+#objective{
+    padding-left:15px;
+}
+

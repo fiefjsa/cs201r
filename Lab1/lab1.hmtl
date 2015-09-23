@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<title></title>
+	</head>
+	<body>
+	<div ID= "header">
+	<p id="name"> Chelsea Ernhofer </p>
+	</div>
+	<div class = "left"></div>
+	<div class = "right">
+	
+		<h2 class = "contact"> 773 E 700 N, Provo UT</h2>
+    	<h2 class = "contact"> 971-708-3950</h2>
+        <a href = "https://www.facebook.com/chelsea.ernhofer"><img src= "https://lh3.googleusercontent.com/-WwHP_8ykyMw/AAAAAAAAAAI/AAAAAAAAABE/O9iOgtAzRsw/photo.jpg" height = "150px"/> </a>
+    	<a href = "http://lovellsinargentina.blogspot.com/"><img src = "http://1.bp.blogspot.com/-r7k5Ft2IOvc/UW8BoV6uyHI/AAAAAAAAAAs/ofocpO0LDhw/s1600/chelsea+travel+docs.JPG" width = "200px"/> </a>
+        <a href = "https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=how%20to%20bake%20cakes"><img src = "https://scontent.cdninstagram.com/hphotos-xap1/t51.2885-15/s320x320/e15/11176161_1629079213973325_326702323_n.jpg" alt="Chelsea Ernhofer" height = "150px" /> </a>
+        <a href = "http://www.utah.com/provo/hiking_trails.htm"><img src = "https://scontent.cdninstagram.com/hphotos-xfa1/t51.2885-15/s320x320/e15/11312252_744874035623853_153565244_n.jpg" height = "150px" /> </a>
+
+
+    		
+    <h3 class = "titles">Objective </h3>
+	<p id = "objective">As a bright, friendly, committed team player, I am seeking to gain experience in a structured work place, be challenged by a fast-paced environment, and earn money to support myself and pay for my post-secondary education. </p>
+</div>
+<div id = "experience"> 
+	<h3 class = "titles"> Experience </h3>
+	<ul>
+	<li><strong>Teaching Assistant, Sociology Department </strong>
+	<p> Worked alongside professor to teach STATA (statistical analysis software), managed attendance and grades of 30 students. Held office hours independent of professor and helped students master course material and maintain understanding.  </p></li>
+	<li><strong>Student Secretary, Math Department</strong>
+	<p>Performed clerical activities such as filing, data entry, and scanning and printing exams and other department documents.  Acted as a liaison between the department and the testing center, and managed the BYU Math online courses.  Managed expense reports and departmental receipts.   </p> </li>
+	<li><strong>LDS Missionary/Sister Training Leader, Argentina Neuquén Mission </strong>
+	<p> Communicated with diverse types of people and shared about the Church and Gospel of Jesus Christ. Worked in a leadership position to teach and train other missionaries. Achieved fluidity in the Spanish language.  </p> </li>
+	</ul>
+</div> 
+	<div id = "skills">
+	<h3 class = "titles"> Skills </h3>
+	<ol>
+	<li> Fluent in English and Spanish with limited knowledge of French  </li>         
+	<li> Fluent in Microsoft Office with basic knowledge of web design </li>   
+	<li> Refined planning and organizational skills</li>
+	<li> Excellent interpersonal and communication skills</li>
+	</ol>
+	</div>
+		<div ID = "footer"> 
+	<a href="https://www.gmail.com/intl/en/mail/help/about.html"><p id="email">chelseaernhofer@hotmail.com</p></a>
+    </div>
+	
+
+	</body>
+</html>
