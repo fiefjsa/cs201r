@@ -1,0 +1,73 @@
+   <!doctype html>
+<html>
+  <head>  
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="Lab 2/app.js"></script></head>
+        <div id = "heading">
+        <h1>Freebase!</h1>
+        <p>Look up any person- whether it be actor, author, historical figure, or anyone in between!</p>
+   </div>
+   <div id = display>
+        Enter First Name: <input type="text" id="searched" value=""><br>
+         Enter Last Name: <input type="text" id="last-searched" value=""><br>
+        <input id ="button" type="submit" value="Submit">
+  
+        <p>Search Results</p>
+        <div id="results">No results</div>
+     </div>
+    <script>
+   
+    $("#button").click(function(e){
+        var first_value = $("#searched").val();
+        var last_value = $("#last-searched").val();
+    e.preventDefault();
+//    $("#searched").text(value);
+    var myurl= "https://www.googleapis.com/freebase/v1/search?query=";
+    if(first_value !="")
+    {
+      myurl += first_value;
+      if(last_value!="")
+      {
+      myurl+= '%20';
+      myurl+= last_value; 
+      }
+    }else 
+    {
+        myurl+= last_value; 
+    }
+      myurl += "&limit=3";
+    console.log(myurl);
+    $.ajax({
+        url : myurl,
+        dataType : "jsonp",
+        success : function(parsed_json) {
+            //var location = parsed_json['location']['city'];
+            var everything = "<ul>";
+            for (var i = 0; i < 3; i++)
+            {
+            //console.log(parsed_json[i].result.name);
+            var name = parsed_json['result'][i]['name'];
+            var link = "https://www.freebase.com" + parsed_json['result'][i]['id'];
+            everything += "<li>Name: "+name +"</li>";
+            everything += "<li>Link to their page: <a href ='"+link + "'> "+link+" </a> </li>";
+            everything += "<br>";
+                console.log("name");
+                console.log("result");
+                console.log("id");
+            if(link)
+            {
+                console.log("link defined");
+            }
+            }
+            everything += "</ul>";
+            $("#results").html(everything);
+        }
+
+    });
+
+e.preventDefault();
+});
+</script>
