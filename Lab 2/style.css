@@ -1,5 +1,5 @@
 body {
-  background-image: url('http://www.mrwallpaper.com/wallpapers/gradient-background.jpg');
+  background-image: url('http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/reader/bg.png');
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -64,9 +64,4 @@ p {
 .description h1 {
   margin-top: 0px;
   font-size: 23px;
-}
-#weather
-{
-     margin-left: 20px;
-     padding-left: 20px;
 }
